@@ -110,7 +110,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="filename">C:\Users\ltoma\OneDrive\Desktop\JMeterScripts\datfiles\password.csv</stringProp>
@@ -173,7 +173,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="login" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="login" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -383,7 +383,7 @@ SampleResult.setSuccessful(true)
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="directory" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="directory" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -428,7 +428,7 @@ SampleResult.setSuccessful(true)
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="logout" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="logout" enabled="false">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -461,7 +461,7 @@ SampleResult.setSuccessful(true)
             <hashTree/>
           </hashTree>
         </hashTree>
-        <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+        <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="false">
           <boolProp name="displayJMeterProperties">false</boolProp>
           <boolProp name="displayJMeterVariables">true</boolProp>
           <boolProp name="displaySamplerProperties">false</boolProp>
